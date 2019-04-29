@@ -41,6 +41,10 @@ class Type {
 		return this.func(a);
 	}
 
+	isClass(target) {
+		return (typeof (target) === 'function' && target.toString().match(/^class/));
+	}
+
 	instance(a, b) {
 		if (this.object(a) && this.func(b)) {
 			try {
