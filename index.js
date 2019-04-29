@@ -22,7 +22,7 @@ class Type {
 	}
 
 	object(a) {
-		return typeof (a) === 'object' && a !== null;
+		return typeof (a) === 'object' && a !== null && !Buffer.isBuffer(a);
 	}
 
 	bool(a) {
