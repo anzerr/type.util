@@ -22,7 +22,7 @@ class Type {
 	}
 
 	object(a) {
-		return typeof (a) === 'object' && a !== null && !Buffer.isBuffer(a);
+		return typeof (a) === 'object' && a !== null;
 	}
 
 	bool(a) {
@@ -39,10 +39,6 @@ class Type {
 
 	function(a) {
 		return this.func(a);
-	}
-
-	isClass(target) {
-		return (typeof (target) === 'function' && target.toString().match(/^class/));
 	}
 
 	instance(a, b) {
