@@ -33,6 +33,10 @@ class Type {
 		return typeof (a) === 'object' && Array.isArray(a);
 	}
 
+	buffer(a) {
+		return typeof (a) === 'object' && Buffer.isBuffer(a);
+	}
+
 	func(a) {
 		return typeof (a) === 'function';
 	}
