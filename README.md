@@ -1,6 +1,6 @@
 
 ### `Intro`
-type check util
+Type check util.
 
 #### `Install`
 ``` bash
