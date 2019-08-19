@@ -18,4 +18,4 @@ declare class Type {
 }
 
 declare const _default: Type;
-export = _default;
+export default _default;
