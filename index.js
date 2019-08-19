@@ -88,4 +88,6 @@ class Type {
 
 }
 
-module.exports = new Type();
+let t = new Type();
+module.exports = t;
+module.exports.default = t;
