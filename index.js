@@ -6,7 +6,7 @@ class Type {
 	}
 
 	int(a) {
-		return !isNaN(a) && a !== '' && (typeof (a) === 'number' || typeof (a) === 'string') && Number(a) === a;
+		return typeof (a) === 'number' && !isNaN(a);
 	}
 
 	number(a) {
