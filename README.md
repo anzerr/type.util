@@ -1,5 +1,8 @@
 
 ### `Intro`
+![GitHub Actions status | linter](https://github.com/anzerr/type.util/workflows/linter/badge.svg)
+![GitHub Actions status | publish](https://github.com/anzerr/type.util/workflows/publish/badge.svg)
+
 Type check util.
 
 #### `Install`
