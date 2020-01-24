@@ -21,8 +21,7 @@
 	"main": "index.js",
 	"types": "index.d.ts",
 	"scripts": {
-		"linter": "eslint index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"linter": "eslint index.js"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
