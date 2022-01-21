@@ -20,15 +20,8 @@
 	"author": "anzerr",
 	"main": "index.js",
 	"types": "index.d.ts",
-	"scripts": {
-		"linter": "eslint index.js"
-	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
-	},
-	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
-	},
+	"scripts": {},
+	"devDependencies": {},
 	"engines": {
 		"node": ">= 0.10.0"
 	}
